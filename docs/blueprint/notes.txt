@@ -1,0 +1,20 @@
+yml config vars:
+
+- hyper params
+- num of edges, optional(range, value, random)
+(condition: num of edges is not higher than binomial over 2 nodes)
+- num of nodes, optional(range, value, random)
+
+GA type:
+- generating graph type: trees, nontrees, random connected graphs
+- equation type for generating graph: (1), (2)
+- mutation rate: also need to determine mutatios genes
+- crossover rate
+- selection type: roulette, tournament, rank
+- termination condition: number of generations, fitness value, time
+
+
+
+
+Generating class conditions:
+- connected graph
